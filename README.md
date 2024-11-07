@@ -5,7 +5,7 @@ Bu dosya, Windows işletim sistemi için kullanılan komutların açıklamaları
 ### dir
 * Açıklama: Belirtilen dizindeki dosya ve dizinleri listeler.
 * Kullanım: `dir [dizin]`
-* ![dir komutu](pictures/dir.png)
+* ![dir komutu](Pictures/dir.png)
 ### cd
 * Açıklama: Belirtilen dizine geçiş yapar.
 * Kullanım: `cd [d
