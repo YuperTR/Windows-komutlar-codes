@@ -3,20 +3,19 @@
 Bu dosya, Windows işletim sistemi için kullanılan komutların açıklamalarını içerir.
 ## Komutlar
 ### dir
-* Açıklama: Belirtilen dizindeki dosya ve dizinleri listeler.
+* Açıklama: Belirtilen konumdaki dosyaları listeler
 * Kullanım: `dir [dizin]`
 * ![dir komutu](Pictures/dir.png)
 ### cd
-* Açıklama: Belirtilen dizine geçiş yapar.
+* Açıklama: Belirtilen konuma yani dosyalara geçiş yapar.
 * Kullanım: `cd [dizin]`
 * ![cd komutu](Pictures/cd.png)
 ### mkdir
-* Açıklama: Belirtilen dizinde yeni bir dizin oluşturur.
+* Açıklama: Belirtilen konuma yeni bir dosya oluşturur. İsim vermek için sonuna vericeğiniz ismi yazmanız yeterlidir.
 * Kullanım: `mkdir [dizin]`
 * ![mkdir komutu](Pictures/mkdir.png)
 ### rmdir
-* Açıklama: Belirtilen dizindeki boş
-dizinleri siler.
+* Açıklama: Belirtilen konumdaki dosyaları siler.
 * Kullanım: `rmdir [dizin]`
 * ![rmdir komutu](Pictures/rmdir.png)
 ### copy
