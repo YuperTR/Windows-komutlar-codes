@@ -1,9 +1,7 @@
 # Windows DOS Komutları
 ## Giriş ve Açıklama
 Bu dosya, Windows işletim sistemi için kullanılan komutların açıklamalarını içerir.
-## Navigasyon
-### dir
-### cd
+
 ## Komutlar
 
 
