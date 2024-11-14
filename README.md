@@ -1,7 +1,12 @@
 # Windows DOS Komutları
 ## Giriş ve Açıklama
 Bu dosya, Windows işletim sistemi için kullanılan komutların açıklamalarını içerir.
+## Navigasyon
+### dir
+### cd
 ## Komutlar
+
+
 ### dir
 * Açıklama: Belirtilen konumdaki dosyaları listeler
 Represents the Windows command prompt, where various DOS commands can be executed.
