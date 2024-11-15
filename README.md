@@ -6,8 +6,7 @@ Bu dosya, Windows işletim sistemi için kullanılan komutların açıklamaları
 
 
 ### dir
-* Açıklama: Belirtilen konumdaki dosyaları listeler
-Represents the Windows command prompt, where various DOS commands can be executed.
+* Açıklama: Belirtilen konumdaki dosyaları listeler.
 
 ```DOS
 dir [dizin]
