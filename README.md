@@ -94,9 +94,10 @@ move [kaynak] [hedef]
 ![move komutu](Pictures/move.png)
 
 ### ``echo``
-* Açıklama: Belirtilen metni ekrana yazdırır veya dosyaya yönlendirir.
+* Açıklama: echo komutundan sonra yazdığın cümleyi ekrana yazdırır. Yada belirttiğin dosyanın içerisini yazıdğın çümle ile değiştirir.
 ```DOS
-echo [metin] veya echo [metin] > [dosya]
+echo [metin]
+echo [metin] > [dosya]
 ```
 
 * ![echo komutu](Pictures/echo.png)
@@ -105,6 +106,7 @@ echo [metin] veya echo [metin] > [dosya]
 * Açıklama: Sistem tarihini görüntüler veya değiştirir.
 ```DOS
 date
+10-11-2024
 ```
 
 ![date komutu](Pictures/date.png)
@@ -113,6 +115,7 @@ date
 * Açıklama: Sistem saatini görüntüler veya değiştirir.
 ```DOS
 time
+9:12:00
 ```
 
 ![time komutu](Pictures/time.png)
@@ -142,7 +145,7 @@ tasklist
 ![tasklist komutu](Pictures/tasklist.png)
 
 ### ``taskkill``
-* Açıklama: Belirtilen işlemi sonlandırır.
+* Açıklama: Belirtilen işlemi sonlandırır. /PID ile işlem numarası tasklistde PID başlığı altından alabilirsin. Eğer /IM program adı şeklinde kullanmak istersen programı uzantısı ile yazmak zorundasın. Mesela notepad.exe için taskkill /IM notepad.exe şeklinde kullanmalısın.
 ```DOS
 taskkill /PID [işlem_numarası] veya taskkill /IM [program_adı]
 ```
@@ -158,14 +161,14 @@ ipconfig
 ![ipconfig komutu](Pictures/ipconfig.png)
 
 ### ``ping``
-* Açıklama: Belirtilen adrese ağ bağlantısını test eder.
+* Açıklama: Belirtilen adrese ağ bağlantısını test eder. Bunu google için yapmak istersen ping google.com şeklinde kullanabilirsin.
 ```DOS
 ping [adres]
 ```
 * ![ping komutu](Pictures/ping.png)
 
 ### ``netstat``
-* Açıklama: Ağ bağlantılarını ve portları görüntüler.
+* Açıklama: Ağ bağlantılarını ve portlarının hepsini görüntüler. 
 ```DOS
 netstat
 ```
@@ -173,25 +176,17 @@ netstat
 ![netstat komutu](Pictures/netstat.png)
 
 ### ``tree``
-* Açıklama: Dizin yapısını ağaç görünümünde gösterir.
+* Açıklama: cd kodu ile içerisinde bulunduğun dosyanın yapısını ağaç görünümünde gösterir. Eğer belirli dizininkini görmek istersen tree C:\Users\Admin\Desktop şeklinde kullanabilirsin.
 ```DOS
 tree [dizin]
 ```
 * ![tree komutu](Pictures/tree.png)
 
-### ``attrib``
-* Açıklama: Dosya özelliklerini görüntüler veya değiştirir.
-```DOS
-attrib [+/-] [``R|A|S|H] [dosya]
-```
-
-![attrib komutu](Pictures/attrib.png)
-
 ### ``fc``
-* Açıklama: İki dosyayı karşılaştırır.
+* Açıklama: İki dosyayı karşılaştırır. mesela iki farlı test dosyasını karşılaştırmak istersen fc test.txt test1.txt şeklinde kullanabilirsin.
 ```DOS
 fc [dosya1] [dosya2]
 ```
 
-![fc komutu](Pictures/fc.png)
+![fc komutu](pictures/fc.png)
 
